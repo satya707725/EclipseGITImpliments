@@ -7,6 +7,6 @@ public class App {
 	}
     public static void main(String[] args) {
     	App a = new App();
-        System.out.println("Sum is :: "+a.doSum(100, 200));
+        System.out.println("Sum amount is :: "+a.doSum(100, 200));
     }
 }
