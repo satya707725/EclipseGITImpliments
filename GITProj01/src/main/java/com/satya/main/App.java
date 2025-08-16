@@ -1,10 +1,12 @@
 package com.satya.main;
 
-/**
- * Hello world!
- */
 public class App {
+	
+	public int doSum(int num1,int num2) {
+		return num1+num2;
+	}
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+    	App a = new App();
+        System.out.println("Sum is :: "+a.doSum(100, 200));
     }
 }
