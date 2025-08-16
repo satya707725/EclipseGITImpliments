@@ -28,4 +28,11 @@ public class AppTest {
     	int actual = a.doSum(-100, 200);
     	assertEquals(expect, actual);
     }
+    @Test
+    public void testWithZeros() {
+    	App a = new App();
+    	int expect = 0;
+    	int actual = a.doSum(0, 0);
+    	assertEquals(expect, actual);
+    }
 }
