@@ -13,4 +13,8 @@ public class NetBankingServuce {
     public String depositedInToAccno(long accNo,double amt) {
     	return amt+" is deposited to account no:: "+accNo;
     }
+    
+    public String closeAccount(long accNo,String type) {
+    	return type+" of account no:: "+accNo+" is closed permanently";
+    }
 }
